@@ -46,7 +46,7 @@
     <script id="hexo-configurations">
     let REDEFINE = window.REDEFINE || {};
     REDEFINE.hexo_config = {"hostname":"example.com","root":"/","language":"en"};
-    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/redefine-avatar.svg","favicon":"/images/redefine-logo.svg","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title_color":{"light":"#fff","dark":"#d1d1b6"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"我们所度过的每个日常","subtitle":{"enable":true,"list":["或许都是连续发生的奇迹..."]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"auto","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":false,"audio":[{"name":null,"artist":null,"url":null,"cover":null},{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
+    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/7334412-8359740658-cj7jd.jpg","favicon":"/images/redefine-logo.svg","og_image":{"enable":false,"image_url":null},"article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title_color":{"light":"#fff","dark":"#d1d1b6"},"font_sizes":{"title":"2.8rem","subtitle":"1.5rem"},"line_height":1.2,"title":"我们所度过的每个日常","subtitle":{"enable":true,"list":["或许都是连续发生的奇迹..."]},"custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.2.1","friend_links":{"columns":2},"home_article":{"date_format":"auto","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}},"plugins":{"aplayer":{"enable":true,"audio":[{"name":"夏影","artist":null,"url":"http://m10.music.126.net/20230315193126/ccec75d77d5b512b1bc1826649092243/ymusic/c451/6e78/431b/e5b0f77f95b8210c12fa90118c61a640.mp3","cover":"https://p1.music.126.net/CI_u3SfBgdTIAQtFnn_wnQ==/6040716883009850.jpg?param=130y130"},{"name":"Skylark","artist":null,"url":"http://m801.music.126.net/20230315193440/efc50709ec493f9598205f5975efd624/jdymusic/obj/w5zDlMODwrDDiGjCn8Ky/1982279374/0f47/0c61/14fe/7bb0d75d83250fd74806ff047a1f37aa.mp3","cover":"https://p1.music.126.net/1iviscxYPqA3nzYDJaV1aQ==/109951164853199947.jpg?param=130y130"}]},"mermaid":{"enable":false,"version":"9.3.0"}}};
     REDEFINE.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
   </script>
     
@@ -137,6 +137,22 @@
                                 
                             </li>
                     
+                        
+                            <li class="menu-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/archives"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-archive"></i>
+                                        
+                                        ARCHIVES
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
                     
                 </ul>
             </div>
@@ -169,6 +185,21 @@
                     <!-- Submenu -->
                     
             
+                
+                    <li class="drawer-menu-item flex-center">
+                        <a class="" 
+                        href="/archives"  >
+                             
+                                
+                                    <i class="fa-regular fa-archive"></i>
+                                
+                                ARCHIVES
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
 
         </ul>
     </div>
@@ -191,36 +222,67 @@
             <li class="home-article-item">
 
                 
+                    <i class="fa-solid fa-thumbtack fa-thumbtack top-icon"></i>
+                
 
+                
+                    <div class="home-article-thumbnail">
+                        <a href="/2023/03/15/hello-world/">
+                            <img src="http://news.yxrb.net/uploadfile/2020/0409/20200409044228154.jpg" alt="HelloWorld" />
+                        </a>
+                    </div>
                 
 
                 <h3 class="home-article-title">
                     <a href="/2023/03/15/hello-world/">
-                        Just a little more time stay along
+                        HelloWorld
                     </a>
                 </h3>
 
                 <div class="home-article-content markdown-body">
                     
-                    “就算世界毁灭了，
-                    我也想，再一次见到你——”
+                        “就算世界毁灭了， 我也想，再一次见到你——”
                     
                 </div>
 
                 <div class="home-article-meta-info-container">
     <div class="home-article-meta-info">
         <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Wed Mar 15 2023 13:20:04 GMT+0800">
+            <span class="home-article-date" data-date="Wed Mar 15 2023 15:01:06 GMT+0800">
                 
                     2023-03-15
                 
             </span>
         </span>
         
+            <span class="home-article-category"><i class="fa-solid fa-folders"></i></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/categories/One/">One</a>&nbsp;
+                        </li>
+                    
+                    
+                </ul>
+            </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/One/">One</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
         
     </div>
 
-    <a href="/2023/03/15/hello-world/">Read more<span class="seo-reader-text">Hello World</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+    <a href="/2023/03/15/hello-world/">Read more<span class="seo-reader-text">HelloWorld</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
 </div>
 
             </li>
@@ -460,6 +522,14 @@
 </script>
 
 
+
+
+    <div id="aplayer"></div>
+
+<script src="/js/libs/APlayer.min.js"></script>
+
+
+<script src="/js/plugins/aplayer.js"></script>
 
 
 </body>
